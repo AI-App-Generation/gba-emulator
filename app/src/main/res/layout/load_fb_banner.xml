@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  GHI ĐÈ layout cùng tên trong module-ads. Bản gốc của thư viện dùng nền trắng
+  (@color/colorWhite) nên mỗi lần chờ banner là loé một vệt trắng giữa app nền tối.
+  Bắt buộc giữ nguyên id "shimmer_container_banner" vì code của thư viện tìm theo id này.
+-->
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shimmer_container_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#111726"
+    app:shimmer_auto_start="true"
+    app:shimmer_base_alpha="0.9"
+    app:shimmer_duration="1400"
+    app:shimmer_highlight_alpha="0.32">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_ad_skeleton" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="11dp"
+                android:background="@drawable/bg_ad_skeleton" />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="9dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bg_ad_skeleton" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="72dp"
+            android:layout_height="28dp"
+            android:background="@drawable/bg_ad_skeleton_pill" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

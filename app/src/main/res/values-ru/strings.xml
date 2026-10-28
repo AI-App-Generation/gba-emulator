@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="back">Назад</string>
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="done">Готово</string>
+    <string name="save">Сохранить</string>
+    <string name="close">Закрыть</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="retry">Повторить</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error">Ошибка</string>
+    <string name="error_generic">Что-то пошло не так. Попробуйте снова.</string>
+    <string name="home">Главная</string>
+    <string name="settings">Настройки</string>
+    <string name="language">Язык</string>
+
+    <string name="select_language">Выберите язык</string>
+    <string name="select_region">Выберите регион</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">Прежде чем начать</string>
+    <string name="store_gate_subtitle">Две короткие заметки перед открытием магазина игр.</string>
+    <string name="store_gate_disclaimer_title">Отказ от ответственности за контент</string>
+    <string name="store_gate_disclaimer_body">Это приложение — только эмулятор: оно не содержит, не размещает и не продаёт игры. Вы несёте полную ответственность за файлы, которые скачиваете или импортируете в приложение, а также за наличие прав на их использование. Мы не несём ответственности за контент, импортированный пользователями.</string>
+    <string name="store_gate_permission_title">Быстрый импорт</string>
+    <string name="store_gate_permission_body">Разрешите приложению читать память устройства, чтобы находить скачанные архивы ROM и импортировать их прямо из папки «Загрузки» — без поиска файлов каждый раз.</string>
+    <string name="store_gate_settings_hint">Android откроет страницу настроек. Включите «Разрешить доступ к управлению всеми файлами» и вернитесь в приложение.</string>
+    <string name="store_gate_grant">ПРИНЯТЬ И РАЗРЕШИТЬ</string>
+    <string name="store_gate_footer">Вы можете отозвать это разрешение в любой момент в настройках системы.</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">ПОЛУЧИТЬ ИГРЫ</string>
+    <string name="store_import_games">ИМПОРТ ИГР</string>
+    <string name="store_coming_soon">Скоро</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">ОНЛАЙН</string>
+    <string name="downloads_web_title">Сайты с ROM</string>
+    <string name="downloads_device_kicker">НА УСТРОЙСТВЕ</string>
+    <string name="downloads_device_title">Импорт файлов</string>
+    <string name="downloads_device_caption">.zip из «Загрузок»</string>
+    <string name="downloads_recent_header">НЕДАВНО ДОБАВЛЕННЫЕ</string>
+    <string name="downloads_empty_title">Здесь пока пусто</string>
+    <string name="downloads_empty_body">Скачанные или импортированные игры появятся здесь.</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">Удалить</string>
+    <string name="uninstall_notice_title">Уже уходите?</string>
+    <string name="uninstall_notice_desc">Ваши %1$d игр(ы) хранятся внутри приложения. Удалите его — исчезнут и они.</string>
+    <string name="uninstall_notice_desc_empty">Библиотека, сохранения и настройки хранятся внутри этого приложения.</string>
+    <string name="uninstall_keep_app">ОСТАВИТЬ ПРИЛОЖЕНИЕ</string>
+    <string name="uninstall_continue">Продолжить удаление</string>
+    <string name="uninstall_warning_title">Это сотрёт ваши игры</string>
+    <string name="uninstall_warning_desc">Всё хранится внутри приложения, резервной копии нигде нет. После переустановки библиотека будет пустой.</string>
+    <string name="uninstall_loss_games">Будет удалено игр: %1$d</string>
+    <string name="uninstall_loss_saves">Будет удалено файлов сохранений: %1$d</string>
+    <string name="uninstall_keep_games">ОСТАВИТЬ МОИ ИГРЫ</string>
+    <string name="uninstall_confirm">ВСЁ РАВНО УДАЛИТЬ</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">ВЫБЕРИТЕ\nЛЮБИМЫЕ</string>
+    <string name="style_subtitle">С какими консолями вы выросли? По ним мы решим, что показать первым.</string>
+    <string name="style_next">ПРОДОЛЖИТЬ</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">ОТКРЫТЬ ИГРУ</string>
+    <string name="unlock_desc">Посмотрите короткую рекламу — и %1$s останется открытой навсегда.</string>
+    <string name="unlock_watch">СМОТРЕТЬ РЕКЛАМУ</string>
+    <string name="unlock_cancel">Не сейчас</string>
+    <string name="badge_locked">Закрыта</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">ВЫЙТИ ИЗ ИГРЫ?</string>
+    <string name="exit_game_desc">Прогресс сохраняется автоматически перед выходом.</string>
+    <string name="exit_game_confirm">ВЫЙТИ</string>
+    <string name="exit_app_title">ЗАКРЫТЬ ПРИЛОЖЕНИЕ?</string>
+    <string name="exit_app_desc">Ваша библиотека останется на месте.</string>
+    <string name="exit_app_confirm">ЗАКРЫТЬ</string>
+    <string name="exit_stay">ОСТАТЬСЯ</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">Загрузка рекламы, подождите…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">ПЕРЕЙТИ НА ПРЕМИУМ</string>
+    <string name="upgrade_later">Позже</string>
+    <string name="unlock_all_cta">Лучше открыть всё</string>
+    <string name="premium_row_title">Перейти на премиум</string>
+    <string name="premium_row_subtitle">Без рекламы, все игры открыты, библиотека без лимита</string>
+    <string name="iap_title">ПРЕМИУМ-ОПЫТ</string>
+    <string name="iap_benefit_features">Откройте все возможности</string>
+    <string name="iap_benefit_space">Откройте все игры, а не только %1$d</string>
+    <string name="iap_benefit_no_ads">Уберите всю рекламу</string>
+    <string name="iap_cta_trial">%1$d ДНЯ БЕСПЛАТНО</string>
+    <string name="iap_cta_continue">ПРОДОЛЖИТЬ</string>
+    <string name="iap_cta_then_weekly">Затем %1$s/неделя</string>
+    <string name="iap_price_weekly">%1$s в неделю</string>
+    <string name="iap_price_monthly">%1$s в месяц</string>
+    <string name="iap_price_lifetime">%1$s, разовый платёж</string>
+    <string name="iap_plan_lifetime">НАВСЕГДА</string>
+    <string name="iap_plan_lifetime_note">Разовый платёж</string>
+    <string name="iap_plan_monthly">ЕЖЕМЕСЯЧНО</string>
+    <string name="iap_plan_monthly_note">Продлевается каждый месяц</string>
+    <string name="iap_best_value">Выгоднее всего</string>
+    <string name="iap_legal">Подписка продлевается автоматически. Отменить можно в любой момент в Google Play.</string>
+    <string name="iap_privacy">Политика конфиденциальности</string>
+    <string name="iap_terms">Условия использования</string>
+    <string name="slots_full_title">ВСЕ СЛОТЫ ЗАНЯТЫ</string>
+    <string name="slots_full_desc">Бесплатная версия открывает %1$d игр. Удалите одну из открытых или оформите премиум, чтобы открыть все.</string>
+    <!-- /Premium -->
+</resources>

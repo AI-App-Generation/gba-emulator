@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App vẽ toàn bộ bằng Compose với nền tối, nhưng nền CỬA SỔ vẫn là trắng của theme Light.
+         Khung hình nào Compose/WebView chưa kịp vẽ (chuyển màn, dựng lại WebView, khởi động app)
+         sẽ lộ ra nền trắng đó -> đặt trùng màu BgRoot để không bao giờ chớp trắng. -->
+    <style name="Theme.GameEmulator" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_root</item>
+        <item name="android:colorBackground">@color/bg_root</item>
+    </style>
+</resources>

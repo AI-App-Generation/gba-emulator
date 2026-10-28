@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418515811020",
+    "project_id": "retropocket---gba-emulat-d91bc",
+    "storage_bucket": "retropocket---gba-emulat-d91bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418515811020:android:0d57efbb1f141bec2f6069",
+        "android_client_info": {
+          "package_name": "com.retropocket.gba.emulator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSQcFzJx8w0Jn66korO6cS3a6uTiDQ2xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

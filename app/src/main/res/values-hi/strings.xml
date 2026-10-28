@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="back">वापस</string>
+    <string name="next">अगला</string>
+    <string name="skip">छोड़ें</string>
+    <string name="done">हो गया</string>
+    <string name="save">सहेजें</string>
+    <string name="close">बंद करें</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error">त्रुटि</string>
+    <string name="error_generic">कुछ गलत हो गया। कृपया पुनः प्रयास करें।</string>
+    <string name="home">होम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="language">भाषा</string>
+
+    <string name="select_language">भाषा चुनें</string>
+    <string name="select_region">क्षेत्र चुनें</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">शुरू करने से पहले</string>
+    <string name="store_gate_subtitle">गेम स्टोर खोलने से पहले दो ज़रूरी बातें।</string>
+    <string name="store_gate_disclaimer_title">सामग्री अस्वीकरण</string>
+    <string name="store_gate_disclaimer_body">यह ऐप केवल एक एमुलेटर है — इसमें कोई गेम शामिल नहीं है, न ही यह कोई गेम होस्ट करता है या बेचता है। ऐप में डाउनलोड या इम्पोर्ट की गई फ़ाइलों और उन्हें इस्तेमाल करने के अधिकार की पूरी ज़िम्मेदारी आपकी है। उपयोगकर्ताओं द्वारा इम्पोर्ट की गई सामग्री के लिए हम ज़िम्मेदार नहीं हैं।</string>
+    <string name="store_gate_permission_title">तेज़ इम्पोर्ट</string>
+    <string name="store_gate_permission_body">ऐप को स्टोरेज पढ़ने की अनुमति दें, ताकि यह आपके डाउनलोड किए गए ROM आर्काइव ढूँढकर सीधे Downloads फ़ोल्डर से इम्पोर्ट कर सके — हर बार फ़ाइलें खोजने की ज़रूरत नहीं।</string>
+    <string name="store_gate_settings_hint">Android एक सेटिंग्स पेज खोलेगा। \"सभी फ़ाइलों को मैनेज करने की अनुमति दें\" चालू करें, फिर ऐप पर लौटें।</string>
+    <string name="store_gate_grant">सहमत हूँ और अनुमति दें</string>
+    <string name="store_gate_footer">आप यह अनुमति कभी भी सिस्टम सेटिंग्स में वापस ले सकते हैं।</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">गेम पाएँ</string>
+    <string name="store_import_games">गेम इम्पोर्ट करें</string>
+    <string name="store_coming_soon">जल्द आ रहा है</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">ऑनलाइन</string>
+    <string name="downloads_web_title">ROM साइटें देखें</string>
+    <string name="downloads_device_kicker">डिवाइस पर</string>
+    <string name="downloads_device_title">फ़ाइलें इम्पोर्ट करें</string>
+    <string name="downloads_device_caption">Downloads से .zip</string>
+    <string name="downloads_recent_header">हाल ही में जोड़े गए</string>
+    <string name="downloads_empty_title">अभी यहाँ कुछ नहीं है</string>
+    <string name="downloads_empty_body">आपके डाउनलोड या इम्पोर्ट किए गए गेम यहाँ दिखेंगे।</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">अनइंस्टॉल करें</string>
+    <string name="uninstall_notice_title">अभी जा रहे हैं?</string>
+    <string name="uninstall_notice_desc">आपके %1$d गेम इसी ऐप के अंदर हैं। ऐप हटाने पर वे भी चले जाएँगे।</string>
+    <string name="uninstall_notice_desc_empty">आपकी लाइब्रेरी, सेव डेटा और सेटिंग्स सब इसी ऐप के अंदर हैं।</string>
+    <string name="uninstall_keep_app">ऐप रखें</string>
+    <string name="uninstall_continue">अनइंस्टॉल जारी रखें</string>
+    <string name="uninstall_warning_title">इससे आपके गेम मिट जाएँगे</string>
+    <string name="uninstall_warning_desc">सब कुछ ऐप के अंदर ही है, कहीं कोई बैकअप नहीं। दोबारा इंस्टॉल करने पर लाइब्रेरी खाली मिलेगी।</string>
+    <string name="uninstall_loss_games">%1$d गेम हटा दिए जाएँगे</string>
+    <string name="uninstall_loss_saves">%1$d सेव फ़ाइलें हटा दी जाएँगी</string>
+    <string name="uninstall_keep_games">मेरे गेम रखें</string>
+    <string name="uninstall_confirm">फिर भी अनइंस्टॉल करें</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">अपने पसंदीदा\nचुनें</string>
+    <string name="style_subtitle">आप किन कंसोल के साथ बड़े हुए? इससे हम तय करते हैं कि पहले क्या दिखे।</string>
+    <string name="style_next">जारी रखें</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">यह गेम अनलॉक करें</string>
+    <string name="unlock_desc">एक छोटा विज्ञापन देखें और %1$s हमेशा के लिए अनलॉक रहेगा।</string>
+    <string name="unlock_watch">विज्ञापन देखें</string>
+    <string name="unlock_cancel">अभी नहीं</string>
+    <string name="badge_locked">लॉक</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">गेम से बाहर जाएँ?</string>
+    <string name="exit_game_desc">बाहर जाने से पहले आपकी प्रगति अपने आप सेव हो जाती है।</string>
+    <string name="exit_game_confirm">बाहर जाएँ</string>
+    <string name="exit_app_title">ऐप बंद करें?</string>
+    <string name="exit_app_desc">आपकी लाइब्रेरी वैसी ही रहेगी।</string>
+    <string name="exit_app_confirm">बंद करें</string>
+    <string name="exit_stay">रुकें</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">विज्ञापन लोड हो रहा है, प्रतीक्षा करें…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">प्रीमियम लें</string>
+    <string name="upgrade_later">बाद में</string>
+    <string name="unlock_all_cta">इसके बजाय सब अनलॉक करें</string>
+    <string name="premium_row_title">प्रीमियम लें</string>
+    <string name="premium_row_subtitle">कोई विज्ञापन नहीं, सभी गेम अनलॉक, अनलिमिटेड लाइब्रेरी</string>
+    <string name="iap_title">प्रीमियम गेम अनुभव</string>
+    <string name="iap_benefit_features">सभी सुविधाएँ अनलॉक करें</string>
+    <string name="iap_benefit_space">हर गेम अनलॉक करें, सिर्फ़ %1$d नहीं</string>
+    <string name="iap_benefit_no_ads">सभी विज्ञापन हटाएँ</string>
+    <string name="iap_cta_trial">%1$d दिन मुफ़्त आज़माएँ</string>
+    <string name="iap_cta_continue">जारी रखें</string>
+    <string name="iap_cta_then_weekly">फिर %1$s/सप्ताह</string>
+    <string name="iap_price_weekly">%1$s प्रति सप्ताह</string>
+    <string name="iap_price_monthly">%1$s प्रति माह</string>
+    <string name="iap_price_lifetime">%1$s, एक बार भुगतान</string>
+    <string name="iap_plan_lifetime">लाइफटाइम</string>
+    <string name="iap_plan_lifetime_note">एक बार भुगतान</string>
+    <string name="iap_plan_monthly">मासिक</string>
+    <string name="iap_plan_monthly_note">हर माह स्वतः नवीनीकरण</string>
+    <string name="iap_best_value">सबसे बढ़िया</string>
+    <string name="iap_legal">सदस्यता स्वतः नवीनीकृत होती है। Google Play में कभी भी रद्द करें।</string>
+    <string name="iap_privacy">गोपनीयता नीति</string>
+    <string name="iap_terms">सेवा की शर्तें</string>
+    <string name="slots_full_title">सभी स्लॉट भर गए</string>
+    <string name="slots_full_desc">मुफ़्त संस्करण %1$d गेम अनलॉक करता है। कोई अनलॉक किया गेम हटाएँ, या सब पाने के लिए प्रीमियम लें।</string>
+    <!-- /Premium -->
+</resources>

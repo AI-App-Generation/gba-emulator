@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="back">戻る</string>
+    <string name="next">次へ</string>
+    <string name="skip">スキップ</string>
+    <string name="done">完了</string>
+    <string name="save">保存</string>
+    <string name="close">閉じる</string>
+    <string name="confirm">確認</string>
+    <string name="retry">再試行</string>
+    <string name="loading">読み込み中…</string>
+    <string name="error">エラー</string>
+    <string name="error_generic">問題が発生しました。もう一度お試しください。</string>
+    <string name="home">ホーム</string>
+    <string name="settings">設定</string>
+    <string name="language">言語</string>
+
+    <string name="select_language">言語を選択</string>
+    <string name="select_region">地域を選択</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">はじめる前に</string>
+    <string name="store_gate_subtitle">ゲームストアを開く前に、2つだけ確認してください。</string>
+    <string name="store_gate_disclaimer_title">コンテンツに関する免責事項</string>
+    <string name="store_gate_disclaimer_body">このアプリはエミュレーターのみを提供し、ゲームを同梱・配信・販売することはありません。アプリにダウンロードまたはインポートするファイル、およびその使用権については、すべてお客様ご自身の責任となります。ユーザーがインポートしたコンテンツについて、当社は一切の責任を負いません。</string>
+    <string name="store_gate_permission_title">インポートをもっと速く</string>
+    <string name="store_gate_permission_body">ストレージの読み取りを許可すると、ダウンロードしたROMアーカイブを自動で見つけ、「ダウンロード」フォルダから直接インポートできます。毎回ファイルを探す必要はありません。</string>
+    <string name="store_gate_settings_hint">Androidの設定画面が開きます。「すべてのファイルの管理権限を付与」をオンにしてから、アプリに戻ってください。</string>
+    <string name="store_gate_grant">同意して許可</string>
+    <string name="store_gate_footer">この権限はシステム設定からいつでも取り消せます。</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">ゲームを入手</string>
+    <string name="store_import_games">ゲームをインポート</string>
+    <string name="store_coming_soon">近日公開</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">オンライン</string>
+    <string name="downloads_web_title">ROMサイトを見る</string>
+    <string name="downloads_device_kicker">端末内</string>
+    <string name="downloads_device_title">ファイルをインポート</string>
+    <string name="downloads_device_caption">「ダウンロード」の.zip</string>
+    <string name="downloads_recent_header">最近追加</string>
+    <string name="downloads_empty_title">まだ何もありません</string>
+    <string name="downloads_empty_body">ダウンロードまたはインポートしたゲームがここに表示されます。</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">アンインストール</string>
+    <string name="uninstall_notice_title">もう終了しますか？</string>
+    <string name="uninstall_notice_desc">%1$d 本のゲームはこのアプリの中にあります。削除すると一緒に消えます。</string>
+    <string name="uninstall_notice_desc_empty">ライブラリ、セーブデータ、設定はすべてこのアプリの中にあります。</string>
+    <string name="uninstall_keep_app">アプリを残す</string>
+    <string name="uninstall_continue">アンインストールに進む</string>
+    <string name="uninstall_warning_title">ゲームがすべて消えます</string>
+    <string name="uninstall_warning_desc">データはすべてアプリ内にあり、どこにもバックアップはありません。再インストールしてもライブラリは空です。</string>
+    <string name="uninstall_loss_games">%1$d 本のゲームが削除されます</string>
+    <string name="uninstall_loss_saves">%1$d 個のセーブデータが削除されます</string>
+    <string name="uninstall_keep_games">ゲームを残す</string>
+    <string name="uninstall_confirm">それでもアンインストール</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">好きな機種を\n選んでください</string>
+    <string name="style_subtitle">どのゲーム機で育ちましたか？最初に表示する内容の参考にします。</string>
+    <string name="style_next">続ける</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">このゲームを解放</string>
+    <string name="unlock_desc">短い広告を1本見ると、%1$s はずっと遊べるようになります。</string>
+    <string name="unlock_watch">広告を見る</string>
+    <string name="unlock_cancel">あとで</string>
+    <string name="badge_locked">ロック中</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">ゲームを終了しますか？</string>
+    <string name="exit_game_desc">終了前に進行状況は自動で保存されます。</string>
+    <string name="exit_game_confirm">終了</string>
+    <string name="exit_app_title">アプリを閉じますか？</string>
+    <string name="exit_app_desc">ライブラリはそのまま残ります。</string>
+    <string name="exit_app_confirm">閉じる</string>
+    <string name="exit_stay">戻る</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">広告を読み込み中です…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">プレミアムにする</string>
+    <string name="upgrade_later">あとで</string>
+    <string name="unlock_all_cta">まとめて解放する</string>
+    <string name="premium_row_title">プレミアムにする</string>
+    <string name="premium_row_subtitle">広告なし・全ゲーム解放・ライブラリ無制限</string>
+    <string name="iap_title">プレミアム体験</string>
+    <string name="iap_benefit_features">すべての機能を解放</string>
+    <string name="iap_benefit_space">%1$d本だけでなく全タイトルを解放</string>
+    <string name="iap_benefit_no_ads">広告をすべて削除</string>
+    <string name="iap_cta_trial">%1$d日間無料で試す</string>
+    <string name="iap_cta_continue">続ける</string>
+    <string name="iap_cta_then_weekly">以降 %1$s/週</string>
+    <string name="iap_price_weekly">週 %1$s</string>
+    <string name="iap_price_monthly">月 %1$s</string>
+    <string name="iap_price_lifetime">%1$s 買い切り</string>
+    <string name="iap_plan_lifetime">買い切り</string>
+    <string name="iap_plan_lifetime_note">一回のお支払い</string>
+    <string name="iap_plan_monthly">月額</string>
+    <string name="iap_plan_monthly_note">毎月自動更新</string>
+    <string name="iap_best_value">おすすめ</string>
+    <string name="iap_legal">サブスクリプションは自動更新されます。Google Play でいつでも解約できます。</string>
+    <string name="iap_privacy">プライバシーポリシー</string>
+    <string name="iap_terms">利用規約</string>
+    <string name="slots_full_title">枠をすべて使用中</string>
+    <string name="slots_full_desc">無料版で解放できるのは%1$d本です。解放済みの1本を削除するか、プレミアムですべて解放できます。</string>
+    <!-- /Premium -->
+</resources>

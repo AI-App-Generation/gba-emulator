@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="done">完成</string>
+    <string name="save">保存</string>
+    <string name="close">关闭</string>
+    <string name="confirm">确认</string>
+    <string name="retry">重试</string>
+    <string name="loading">加载中…</string>
+    <string name="error">错误</string>
+    <string name="error_generic">出了点问题，请重试。</string>
+    <string name="home">首页</string>
+    <string name="settings">设置</string>
+    <string name="language">语言</string>
+
+    <string name="select_language">选择语言</string>
+    <string name="select_region">选择地区</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">开始之前</string>
+    <string name="store_gate_subtitle">打开游戏商店前，请先了解两件事。</string>
+    <string name="store_gate_disclaimer_title">内容免责声明</string>
+    <string name="store_gate_disclaimer_body">本应用仅为模拟器，不包含、托管或出售任何游戏。您需对下载或导入到应用中的文件及其使用权利承担全部责任。对于用户导入的内容，我们不承担任何责任。</string>
+    <string name="store_gate_permission_title">更快导入</string>
+    <string name="store_gate_permission_body">允许应用读取存储空间，即可自动找到您下载的 ROM 压缩包，并直接从“下载”文件夹导入，无需每次手动查找文件。</string>
+    <string name="store_gate_settings_hint">Android 将打开设置页面。请开启“允许管理所有文件”，然后返回应用。</string>
+    <string name="store_gate_grant">同意并授权</string>
+    <string name="store_gate_footer">您可以随时在系统设置中撤销此权限。</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">获取游戏</string>
+    <string name="store_import_games">导入游戏</string>
+    <string name="store_coming_soon">即将推出</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">在线</string>
+    <string name="downloads_web_title">浏览 ROM 网站</string>
+    <string name="downloads_device_kicker">本机</string>
+    <string name="downloads_device_title">导入文件</string>
+    <string name="downloads_device_caption">“下载”中的 .zip</string>
+    <string name="downloads_recent_header">最近添加</string>
+    <string name="downloads_empty_title">这里还没有内容</string>
+    <string name="downloads_empty_body">你下载或导入的游戏会显示在这里。</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">卸载</string>
+    <string name="uninstall_notice_title">这就要走了吗？</string>
+    <string name="uninstall_notice_desc">你的 %1$d 个游戏都在这个应用里，卸载会一并删除。</string>
+    <string name="uninstall_notice_desc_empty">你的游戏库、存档和设置都保存在这个应用里。</string>
+    <string name="uninstall_keep_app">保留应用</string>
+    <string name="uninstall_continue">继续卸载</string>
+    <string name="uninstall_warning_title">卸载会清空你的游戏</string>
+    <string name="uninstall_warning_desc">所有数据都只存在应用内，别处没有备份。重新安装后游戏库是空的。</string>
+    <string name="uninstall_loss_games">将删除 %1$d 个游戏</string>
+    <string name="uninstall_loss_saves">将删除 %1$d 个存档文件</string>
+    <string name="uninstall_keep_games">保留我的游戏</string>
+    <string name="uninstall_confirm">仍要卸载</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">选择你的\n最爱</string>
+    <string name="style_subtitle">你是玩哪些主机长大的？我们据此决定优先展示的内容。</string>
+    <string name="style_next">继续</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">解锁这个游戏</string>
+    <string name="unlock_desc">看一段短广告，%1$s 就永久解锁。</string>
+    <string name="unlock_watch">观看广告</string>
+    <string name="unlock_cancel">以后再说</string>
+    <string name="badge_locked">已锁定</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">退出游戏？</string>
+    <string name="exit_game_desc">离开前会自动保存进度。</string>
+    <string name="exit_game_confirm">退出</string>
+    <string name="exit_app_title">关闭应用？</string>
+    <string name="exit_app_desc">你的游戏库会原样保留。</string>
+    <string name="exit_app_confirm">关闭</string>
+    <string name="exit_stay">留下</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">正在加载广告，请稍候…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">升级高级版</string>
+    <string name="upgrade_later">以后再说</string>
+    <string name="unlock_all_cta">干脆全部解锁</string>
+    <string name="premium_row_title">升级高级版</string>
+    <string name="premium_row_subtitle">无广告、全部游戏解锁、游戏库不限量</string>
+    <string name="iap_title">高级游戏体验</string>
+    <string name="iap_benefit_features">解锁全部功能</string>
+    <string name="iap_benefit_space">解锁全部游戏，不止 %1$d 款</string>
+    <string name="iap_benefit_no_ads">移除所有广告</string>
+    <string name="iap_cta_trial">免费试用 %1$d 天</string>
+    <string name="iap_cta_continue">继续</string>
+    <string name="iap_cta_then_weekly">之后 %1$s/周</string>
+    <string name="iap_price_weekly">每周 %1$s</string>
+    <string name="iap_price_monthly">每月 %1$s</string>
+    <string name="iap_price_lifetime">%1$s，一次买断</string>
+    <string name="iap_plan_lifetime">永久</string>
+    <string name="iap_plan_lifetime_note">一次性付款</string>
+    <string name="iap_plan_monthly">每月</string>
+    <string name="iap_plan_monthly_note">每月自动续订</string>
+    <string name="iap_best_value">最划算</string>
+    <string name="iap_legal">订阅将自动续订，可随时在 Google Play 取消。</string>
+    <string name="iap_privacy">隐私政策</string>
+    <string name="iap_terms">服务条款</string>
+    <string name="slots_full_title">名额已用完</string>
+    <string name="slots_full_desc">免费版可解锁 %1$d 款游戏。删掉一款已解锁的，或升级高级版全部解锁。</string>
+    <!-- /Premium -->
+</resources>

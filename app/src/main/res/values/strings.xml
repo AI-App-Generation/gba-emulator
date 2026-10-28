@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <!-- Meta / Facebook Developer Console -->
+    <string name="facebook_app_id" translatable="false">1363982395360937</string>
+    <string name="facebook_client_token" translatable="false">7d6fcd3add2c8250f5beb262579b9954</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+
+    <string name="select_language">Select language</string>
+    <string name="select_region">Select region</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">Before you browse</string>
+    <string name="store_gate_subtitle">Two quick things before the game store opens.</string>
+    <string name="store_gate_disclaimer_title">Content disclaimer</string>
+    <string name="store_gate_disclaimer_body">This app is an emulator only — it does not include, host or sell any games. You are fully responsible for the files you download or import into the app, and for having the right to use them. We accept no responsibility for user-imported content.</string>
+    <string name="store_gate_permission_title">Faster imports</string>
+    <string name="store_gate_permission_body">Allow the app to read your storage so it can find the ROM archives you download and import them straight from Downloads — no need to browse for files every time.</string>
+    <string name="store_gate_settings_hint">Android will open a settings page. Turn on \"Allow access to manage all files\", then come back to the app.</string>
+    <string name="store_gate_grant">AGREE &amp; ALLOW</string>
+    <string name="store_gate_footer">You can revoke this at any time in system settings.</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">GET GAMES</string>
+    <string name="store_import_games">IMPORT GAMES</string>
+    <string name="store_coming_soon">Coming soon</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">ONLINE</string>
+    <string name="downloads_web_title">Browse ROM sites</string>
+    <string name="downloads_device_kicker">ON DEVICE</string>
+    <string name="downloads_device_title">Import files</string>
+    <string name="downloads_device_caption">.zip from Downloads</string>
+    <string name="downloads_recent_header">RECENTLY ADDED</string>
+    <string name="downloads_empty_title">Nothing here yet</string>
+    <string name="downloads_empty_body">Games you download or import will appear here.</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">Uninstall</string>
+    <string name="uninstall_notice_title">Leaving already?</string>
+    <string name="uninstall_notice_desc">Your %1$d games live inside this app. Removing it takes them along.</string>
+    <string name="uninstall_notice_desc_empty">Your library, save states and settings all live inside this app.</string>
+    <string name="uninstall_keep_app">KEEP APP</string>
+    <string name="uninstall_continue">Continue to uninstall</string>
+    <string name="uninstall_warning_title">This erases your games</string>
+    <string name="uninstall_warning_desc">Everything is stored inside the app, with no backup anywhere. Reinstalling gives you an empty library.</string>
+    <string name="uninstall_loss_games">%1$d games will be deleted</string>
+    <string name="uninstall_loss_saves">%1$d save files will be deleted</string>
+    <string name="uninstall_keep_games">KEEP MY GAMES</string>
+    <string name="uninstall_confirm">UNINSTALL ANYWAY</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">PICK YOUR\nFAVOURITES</string>
+    <string name="style_subtitle">Which consoles did you grow up with? We use this to tune what shows up first.</string>
+    <string name="style_next">CONTINUE</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">UNLOCK THIS GAME</string>
+    <string name="unlock_desc">Watch one short ad and %1$s stays unlocked for good.</string>
+    <string name="unlock_watch">WATCH AD</string>
+    <string name="unlock_cancel">Not now</string>
+    <string name="badge_locked">Locked</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">LEAVE THE GAME?</string>
+    <string name="exit_game_desc">Your progress is saved automatically before you leave.</string>
+    <string name="exit_game_confirm">LEAVE</string>
+    <string name="exit_app_title">CLOSE THE APP?</string>
+    <string name="exit_app_desc">Your library stays right where it is.</string>
+    <string name="exit_app_confirm">CLOSE</string>
+    <string name="exit_stay">STAY</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">Loading ad, please wait…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">GO PREMIUM</string>
+    <string name="upgrade_later">Maybe later</string>
+    <string name="unlock_all_cta">Unlock everything instead</string>
+    <string name="premium_row_title">Go premium</string>
+    <string name="premium_row_subtitle">No ads, every game unlocked, unlimited library</string>
+    <string name="iap_title">PREMIUM GAME EXPERIENCE</string>
+    <string name="iap_benefit_features">Unlock all features</string>
+    <string name="iap_benefit_space">Unlock every game, not just %1$d</string>
+    <string name="iap_benefit_no_ads">Remove all ads</string>
+    <string name="iap_cta_trial">TRY %1$d DAYS FOR FREE</string>
+    <string name="iap_cta_continue">CONTINUE</string>
+    <string name="iap_cta_then_weekly">Then %1$s/week</string>
+    <string name="iap_price_weekly">%1$s per week</string>
+    <string name="iap_price_monthly">%1$s per month</string>
+    <string name="iap_price_lifetime">%1$s, pay once</string>
+    <string name="iap_plan_lifetime">LIFETIME</string>
+    <string name="iap_plan_lifetime_note">One-time payment</string>
+    <string name="iap_plan_monthly">MONTHLY</string>
+    <string name="iap_plan_monthly_note">Auto-renews monthly</string>
+    <string name="iap_best_value">Best Value</string>
+    <string name="iap_legal">Subscriptions renew automatically. Cancel anytime in Google Play.</string>
+    <string name="iap_privacy">Privacy Policy</string>
+    <string name="iap_terms">Terms of Service</string>
+    <string name="slots_full_title">ALL SLOTS USED</string>
+    <string name="slots_full_desc">The free version unlocks %1$d games. Delete one you have unlocked, or go premium to unlock them all.</string>
+    <!-- /Premium -->
+</resources>

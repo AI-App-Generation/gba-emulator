@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="back">Quay lại</string>
+    <string name="next">Tiếp theo</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="done">Xong</string>
+    <string name="save">Lưu</string>
+    <string name="close">Đóng</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="retry">Thử lại</string>
+    <string name="loading">Đang tải…</string>
+    <string name="error">Lỗi</string>
+    <string name="error_generic">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <string name="home">Trang chủ</string>
+    <string name="settings">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="select_region">Chọn khu vực</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">Trước khi bắt đầu</string>
+    <string name="store_gate_subtitle">Hai điều cần biết trước khi mở kho game.</string>
+    <string name="store_gate_disclaimer_title">Miễn trừ trách nhiệm nội dung</string>
+    <string name="store_gate_disclaimer_body">Ứng dụng này chỉ là trình giả lập — không đi kèm, lưu trữ hay bán bất kỳ trò chơi nào. Bạn hoàn toàn chịu trách nhiệm về các tệp mình tải xuống hoặc nhập vào ứng dụng, cũng như quyền sử dụng chúng. Chúng tôi không chịu trách nhiệm đối với nội dung do người dùng nhập vào.</string>
+    <string name="store_gate_permission_title">Nhập game nhanh hơn</string>
+    <string name="store_gate_permission_body">Cho phép ứng dụng đọc bộ nhớ để tự tìm các tệp ROM bạn đã tải và nhập thẳng từ thư mục Downloads — không cần duyệt tìm tệp mỗi lần.</string>
+    <string name="store_gate_settings_hint">Android sẽ mở trang cài đặt. Hãy bật \"Cho phép quản lý tất cả các tệp\" rồi quay lại ứng dụng.</string>
+    <string name="store_gate_grant">ĐỒNG Ý &amp; CẤP QUYỀN</string>
+    <string name="store_gate_footer">Bạn có thể thu hồi quyền này bất cứ lúc nào trong cài đặt hệ thống.</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">TẢI GAME</string>
+    <string name="store_import_games">NHẬP GAME</string>
+    <string name="store_coming_soon">Sắp ra mắt</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">TRỰC TUYẾN</string>
+    <string name="downloads_web_title">Duyệt trang ROM</string>
+    <string name="downloads_device_kicker">TRÊN MÁY</string>
+    <string name="downloads_device_title">Nhập tệp</string>
+    <string name="downloads_device_caption">.zip trong Downloads</string>
+    <string name="downloads_recent_header">MỚI THÊM GẦN ĐÂY</string>
+    <string name="downloads_empty_title">Chưa có gì ở đây</string>
+    <string name="downloads_empty_body">Game bạn tải về hoặc nhập vào sẽ hiện ở đây.</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">Gỡ cài đặt</string>
+    <string name="uninstall_notice_title">Bạn định gỡ app?</string>
+    <string name="uninstall_notice_desc">%1$d game của bạn nằm trong app này. Gỡ app là mất luôn.</string>
+    <string name="uninstall_notice_desc_empty">Thư viện game, save state và cài đặt đều nằm trong app này.</string>
+    <string name="uninstall_keep_app">GIỮ LẠI APP</string>
+    <string name="uninstall_continue">Tiếp tục gỡ cài đặt</string>
+    <string name="uninstall_warning_title">Gỡ app là xoá sạch game</string>
+    <string name="uninstall_warning_desc">Mọi thứ nằm trong app, không có bản sao ở đâu khác. Cài lại thì thư viện trống trơn.</string>
+    <string name="uninstall_loss_games">%1$d game sẽ bị xoá</string>
+    <string name="uninstall_loss_saves">%1$d tệp lưu sẽ bị xoá</string>
+    <string name="uninstall_keep_games">GIỮ GAME CỦA TÔI</string>
+    <string name="uninstall_confirm">VẪN GỠ</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">BẠN MÊ\nHỆ MÁY NÀO?</string>
+    <string name="style_subtitle">Bạn lớn lên cùng những hệ máy nào? Chúng tôi dựa vào đó để sắp xếp nội dung hiện ra trước.</string>
+    <string name="style_next">TIẾP TỤC</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">MỞ KHOÁ GAME NÀY</string>
+    <string name="unlock_desc">Xem một quảng cáo ngắn là %1$s mở khoá vĩnh viễn.</string>
+    <string name="unlock_watch">XEM QUẢNG CÁO</string>
+    <string name="unlock_cancel">Để sau</string>
+    <string name="badge_locked">Đang khoá</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">THOÁT GAME?</string>
+    <string name="exit_game_desc">Tiến trình được lưu tự động trước khi bạn rời đi.</string>
+    <string name="exit_game_confirm">THOÁT</string>
+    <string name="exit_app_title">ĐÓNG ỨNG DỤNG?</string>
+    <string name="exit_app_desc">Thư viện của bạn vẫn còn nguyên.</string>
+    <string name="exit_app_confirm">ĐÓNG</string>
+    <string name="exit_stay">Ở LẠI</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">Đang tải quảng cáo, chờ chút…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">NÂNG CẤP</string>
+    <string name="upgrade_later">Để sau</string>
+    <string name="unlock_all_cta">Mở khoá tất cả luôn</string>
+    <string name="premium_row_title">Nâng cấp bản trả phí</string>
+    <string name="premium_row_subtitle">Không quảng cáo, mở khoá mọi game, thư viện không giới hạn</string>
+    <string name="iap_title">TRẢI NGHIỆM PREMIUM</string>
+    <string name="iap_benefit_features">Mở khoá toàn bộ tính năng</string>
+    <string name="iap_benefit_space">Mở khoá mọi game, không chỉ %1$d</string>
+    <string name="iap_benefit_no_ads">Gỡ sạch quảng cáo</string>
+    <string name="iap_cta_trial">DÙNG THỬ %1$d NGÀY MIỄN PHÍ</string>
+    <string name="iap_cta_continue">TIẾP TỤC</string>
+    <string name="iap_cta_then_weekly">Sau đó %1$s/tuần</string>
+    <string name="iap_price_weekly">%1$s mỗi tuần</string>
+    <string name="iap_price_monthly">%1$s mỗi tháng</string>
+    <string name="iap_price_lifetime">%1$s, trả một lần</string>
+    <string name="iap_plan_lifetime">VĨNH VIỄN</string>
+    <string name="iap_plan_lifetime_note">Thanh toán một lần</string>
+    <string name="iap_plan_monthly">HÀNG THÁNG</string>
+    <string name="iap_plan_monthly_note">Tự động gia hạn mỗi tháng</string>
+    <string name="iap_best_value">Đáng mua nhất</string>
+    <string name="iap_legal">Gói đăng ký tự động gia hạn. Huỷ bất cứ lúc nào trong Google Play.</string>
+    <string name="iap_privacy">Chính sách bảo mật</string>
+    <string name="iap_terms">Điều khoản dịch vụ</string>
+    <string name="slots_full_title">ĐÃ DÙNG HẾT SLOT</string>
+    <string name="slots_full_desc">Bản miễn phí mở khoá được %1$d game. Xoá bớt một game đã mở, hoặc lên premium để mở tất cả.</string>
+    <!-- /Premium -->
+</resources>

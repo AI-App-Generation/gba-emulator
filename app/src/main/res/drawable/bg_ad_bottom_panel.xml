@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Panel chữ dán sát đáy của quảng cáo native toàn màn hình. Nền đục gần như hoàn toàn để chữ
+  luôn đọc được dù ảnh quảng cáo phía sau sáng hay tối, chỉ bo góc trên vì cạnh dưới đã sát mép
+  màn hình.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#F5111726" />
+
+    <corners
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp" />
+
+</shape>

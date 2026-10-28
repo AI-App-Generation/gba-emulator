@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080B14">
+
+    <!-- Quảng cáo thật được gắn vào đây khi load xong -->
+    <FrameLayout
+        android:id="@+id/frAds"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- Khung xương phải khớp template_ad_full: ảnh giữa màn, panel chữ dán đáy -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerNative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_alpha="0.9"
+        app:shimmer_duration="1400"
+        app:shimmer_highlight_alpha="0.32">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="32dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_ad_media" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/bg_ad_bottom_panel"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="12dp"
+                        android:background="@drawable/bg_ad_skeleton" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="160dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/bg_ad_skeleton" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="11dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bg_ad_skeleton" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="11dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/bg_ad_skeleton" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/bg_ad_skeleton_pill" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

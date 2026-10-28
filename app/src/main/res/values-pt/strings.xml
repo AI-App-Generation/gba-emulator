@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="back">Voltar</string>
+    <string name="next">Próximo</string>
+    <string name="skip">Pular</string>
+    <string name="done">Concluído</string>
+    <string name="save">Salvar</string>
+    <string name="close">Fechar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="loading">Carregando…</string>
+    <string name="error">Erro</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="home">Início</string>
+    <string name="settings">Configurações</string>
+    <string name="language">Idioma</string>
+
+    <string name="select_language">Selecionar idioma</string>
+    <string name="select_region">Selecionar região</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">Antes de começar</string>
+    <string name="store_gate_subtitle">Duas coisas rápidas antes de abrir a loja de jogos.</string>
+    <string name="store_gate_disclaimer_title">Aviso sobre o conteúdo</string>
+    <string name="store_gate_disclaimer_body">Este app é apenas um emulador: não inclui, hospeda nem vende nenhum jogo. Você é o único responsável pelos arquivos que baixar ou importar no app e por ter o direito de usá-los. Não nos responsabilizamos pelo conteúdo importado pelos usuários.</string>
+    <string name="store_gate_permission_title">Importação mais rápida</string>
+    <string name="store_gate_permission_body">Permita que o app leia seu armazenamento para encontrar os arquivos ROM que você baixar e importá-los direto de Downloads, sem precisar procurar os arquivos toda vez.</string>
+    <string name="store_gate_settings_hint">O Android vai abrir uma página de configurações. Ative \"Permitir acesso para gerenciar todos os arquivos\" e volte ao app.</string>
+    <string name="store_gate_grant">ACEITAR E PERMITIR</string>
+    <string name="store_gate_footer">Você pode revogar esta permissão a qualquer momento nas configurações do sistema.</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">OBTER JOGOS</string>
+    <string name="store_import_games">IMPORTAR JOGOS</string>
+    <string name="store_coming_soon">Em breve</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">ONLINE</string>
+    <string name="downloads_web_title">Explorar sites de ROM</string>
+    <string name="downloads_device_kicker">NO DISPOSITIVO</string>
+    <string name="downloads_device_title">Importar arquivos</string>
+    <string name="downloads_device_caption">.zip de Downloads</string>
+    <string name="downloads_recent_header">ADICIONADOS RECENTEMENTE</string>
+    <string name="downloads_empty_title">Nada aqui ainda</string>
+    <string name="downloads_empty_body">Os jogos que você baixar ou importar aparecerão aqui.</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">Desinstalar</string>
+    <string name="uninstall_notice_title">Já vai?</string>
+    <string name="uninstall_notice_desc">Seus %1$d jogos ficam dentro deste app. Removê-lo leva todos juntos.</string>
+    <string name="uninstall_notice_desc_empty">Sua biblioteca, seus saves e suas configurações ficam dentro deste app.</string>
+    <string name="uninstall_keep_app">MANTER APP</string>
+    <string name="uninstall_continue">Continuar a desinstalação</string>
+    <string name="uninstall_warning_title">Isto apaga seus jogos</string>
+    <string name="uninstall_warning_desc">Tudo fica guardado dentro do app, sem cópia em nenhum outro lugar. Ao reinstalar, a biblioteca vem vazia.</string>
+    <string name="uninstall_loss_games">%1$d jogos serão excluídos</string>
+    <string name="uninstall_loss_saves">%1$d arquivos de save serão excluídos</string>
+    <string name="uninstall_keep_games">MANTER MEUS JOGOS</string>
+    <string name="uninstall_confirm">DESINSTALAR MESMO ASSIM</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">ESCOLHA SEUS\nFAVORITOS</string>
+    <string name="style_subtitle">Com quais consoles você cresceu? Usamos isso para decidir o que aparece primeiro.</string>
+    <string name="style_next">CONTINUAR</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">DESBLOQUEAR JOGO</string>
+    <string name="unlock_desc">Assista a um anúncio curto e %1$s fica desbloqueado para sempre.</string>
+    <string name="unlock_watch">VER ANÚNCIO</string>
+    <string name="unlock_cancel">Agora não</string>
+    <string name="badge_locked">Bloqueado</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">SAIR DO JOGO?</string>
+    <string name="exit_game_desc">Seu progresso é salvo automaticamente antes de sair.</string>
+    <string name="exit_game_confirm">SAIR</string>
+    <string name="exit_app_title">FECHAR O APP?</string>
+    <string name="exit_app_desc">Sua biblioteca continua no lugar.</string>
+    <string name="exit_app_confirm">FECHAR</string>
+    <string name="exit_stay">FICAR</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">Carregando anúncio, aguarde…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">QUERO O PREMIUM</string>
+    <string name="upgrade_later">Mais tarde</string>
+    <string name="unlock_all_cta">Desbloquear tudo</string>
+    <string name="premium_row_title">Assinar premium</string>
+    <string name="premium_row_subtitle">Sem anúncios, todos os jogos liberados, biblioteca ilimitada</string>
+    <string name="iap_title">EXPERIÊNCIA PREMIUM</string>
+    <string name="iap_benefit_features">Desbloqueie todos os recursos</string>
+    <string name="iap_benefit_space">Desbloqueie todos os jogos, não apenas %1$d</string>
+    <string name="iap_benefit_no_ads">Remova todos os anúncios</string>
+    <string name="iap_cta_trial">TESTE %1$d DIAS GRÁTIS</string>
+    <string name="iap_cta_continue">CONTINUAR</string>
+    <string name="iap_cta_then_weekly">Depois %1$s/semana</string>
+    <string name="iap_price_weekly">%1$s por semana</string>
+    <string name="iap_price_monthly">%1$s por mês</string>
+    <string name="iap_price_lifetime">%1$s, pagamento único</string>
+    <string name="iap_plan_lifetime">VITALÍCIO</string>
+    <string name="iap_plan_lifetime_note">Pagamento único</string>
+    <string name="iap_plan_monthly">MENSAL</string>
+    <string name="iap_plan_monthly_note">Renova todo mês</string>
+    <string name="iap_best_value">Melhor valor</string>
+    <string name="iap_legal">As assinaturas renovam automaticamente. Cancele quando quiser no Google Play.</string>
+    <string name="iap_privacy">Política de Privacidade</string>
+    <string name="iap_terms">Termos de Serviço</string>
+    <string name="slots_full_title">SEM VAGAS LIVRES</string>
+    <string name="slots_full_desc">A versão gratuita desbloqueia %1$d jogos. Apague um que já desbloqueou, ou seja premium para ter todos.</string>
+    <!-- /Premium -->
+</resources>

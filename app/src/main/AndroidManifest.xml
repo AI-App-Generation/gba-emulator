@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Rung phản hồi khi bấm nút gamepad ảo. Từ Android 10, RadialGamePad dùng
+         Vibrator.vibrate(VibrationEffect) nên BẮT BUỘC có quyền này; thiếu là lệnh rung bị chặn
+         im lặng và tuỳ chọn "Haptic feedback" trong Settings không có tác dụng. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- Android 12L trở xuống dùng dialog runtime để đọc ROM trong Downloads. Android 13+
+         truy cập Downloads qua MediaStore nên không xin quyền bộ nhớ rộng. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <!--
+      Android 11+ không còn quyền runtime nào đọc được file .zip bất kỳ trong Downloads:
+      READ_EXTERNAL_STORAGE vô hiệu từ API 33, READ_MEDIA_* chỉ áp cho ảnh/video/nhạc, và
+      thư mục Download nằm trong danh sách bị cấm chọn của ACTION_OPEN_DOCUMENT_TREE.
+      Quyền này là cách duy nhất để app tự liệt kê Downloads bằng UI của chính nó.
+      Khi phát hành phải điền form khai báo "All files access" trên Play Console.
+    -->
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <!-- Required for Adjust / AdMob to read Google Advertising ID (Android 13+) -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:name="com.retropocket.gba.emulator.GlobalApp"
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.GameEmulator"
+        tools:replace="android:allowBackup,android:usesCleartextTraffic,android:dataExtractionRules,android:fullBackupContent">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${app_id}" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.appsflyer.FacebookApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+            android:value="true" />
+
+        <!-- Mở từ shortcut "Uninstall" ở launcher nên phải exported. -->
+        <activity
+            android:name=".features.uninstall.UninstallActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=".uninstall"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GameEmulator"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="locale|layoutDirection|screenSize|keyboardHidden|screenLayout|orientation"
+            android:theme="@style/Theme.GameEmulator"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

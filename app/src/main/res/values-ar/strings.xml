@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">RetroPocket - GBA Emulator</string>
+
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="back">رجوع</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="done">تم</string>
+    <string name="save">حفظ</string>
+    <string name="close">إغلاق</string>
+    <string name="confirm">تأكيد</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="error">خطأ</string>
+    <string name="error_generic">حدث خطأ ما. يرجى المحاولة مرة أخرى.</string>
+    <string name="home">الرئيسية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+
+    <string name="select_language">اختر اللغة</string>
+    <string name="select_region">اختر المنطقة</string>
+
+    <!-- Store access gate -->
+    <string name="store_gate_title">قبل أن تبدأ</string>
+    <string name="store_gate_subtitle">أمران سريعان قبل فتح متجر الألعاب.</string>
+    <string name="store_gate_disclaimer_title">إخلاء المسؤولية عن المحتوى</string>
+    <string name="store_gate_disclaimer_body">هذا التطبيق مجرد محاكي، ولا يتضمن أي ألعاب ولا يستضيفها ولا يبيعها. أنت وحدك المسؤول عن الملفات التي تنزّلها أو تستوردها إلى التطبيق وعن امتلاكك حق استخدامها. لا نتحمل أي مسؤولية عن المحتوى الذي يستورده المستخدمون.</string>
+    <string name="store_gate_permission_title">استيراد أسرع</string>
+    <string name="store_gate_permission_body">اسمح للتطبيق بقراءة مساحة التخزين ليعثر على ملفات ROM المضغوطة التي تنزّلها ويستوردها مباشرةً من مجلد التنزيلات، دون الحاجة إلى البحث عن الملفات في كل مرة.</string>
+    <string name="store_gate_settings_hint">سيفتح Android صفحة الإعدادات. فعّل خيار \"السماح بإدارة كل الملفات\" ثم عُد إلى التطبيق.</string>
+    <string name="store_gate_grant">أوافق وأسمح</string>
+    <string name="store_gate_footer">يمكنك إلغاء هذا الإذن في أي وقت من إعدادات النظام.</string>
+    <!-- /Store access gate -->
+
+    <!-- Store hub -->
+    <string name="store_get_games">احصل على ألعاب</string>
+    <string name="store_import_games">استيراد الألعاب</string>
+    <string name="store_coming_soon">قريبًا</string>
+    <!-- /Store hub -->
+
+    <!-- Downloads tab -->
+    <string name="downloads_web_kicker">عبر الإنترنت</string>
+    <string name="downloads_web_title">تصفّح مواقع ROM</string>
+    <string name="downloads_device_kicker">على الجهاز</string>
+    <string name="downloads_device_title">استيراد الملفات</string>
+    <string name="downloads_device_caption">ملفات .zip من التنزيلات</string>
+    <string name="downloads_recent_header">أُضيفت مؤخرًا</string>
+    <string name="downloads_empty_title">لا شيء هنا بعد</string>
+    <string name="downloads_empty_body">ستظهر هنا الألعاب التي تنزّلها أو تستوردها.</string>
+    <!-- /Downloads tab -->
+
+    <!-- Uninstall flow -->
+    <string name="uninstall_shortcut_label">إلغاء التثبيت</string>
+    <string name="uninstall_notice_title">هل تغادر بهذه السرعة؟</string>
+    <string name="uninstall_notice_desc">ألعابك البالغ عددها %1$d موجودة داخل هذا التطبيق، وإزالته تحذفها معه.</string>
+    <string name="uninstall_notice_desc_empty">مكتبتك وملفات الحفظ والإعدادات كلها موجودة داخل هذا التطبيق.</string>
+    <string name="uninstall_keep_app">الاحتفاظ بالتطبيق</string>
+    <string name="uninstall_continue">متابعة إلغاء التثبيت</string>
+    <string name="uninstall_warning_title">هذا يمحو ألعابك</string>
+    <string name="uninstall_warning_desc">كل شيء مخزَّن داخل التطبيق ولا توجد نسخة احتياطية في أي مكان. وعند إعادة التثبيت ستكون المكتبة فارغة.</string>
+    <string name="uninstall_loss_games">سيتم حذف %1$d لعبة</string>
+    <string name="uninstall_loss_saves">سيتم حذف %1$d ملف حفظ</string>
+    <string name="uninstall_keep_games">الاحتفاظ بألعابي</string>
+    <string name="uninstall_confirm">إلغاء التثبيت على أي حال</string>
+    <!-- /Uninstall flow -->
+
+    <!-- Style survey -->
+    <string name="style_title">اختر أجهزتك\nالمفضلة</string>
+    <string name="style_subtitle">مع أي أجهزة نشأت؟ نستخدم ذلك لتحديد ما يظهر أولاً.</string>
+    <string name="style_next">متابعة</string>
+    <!-- /Style survey -->
+
+    <!-- Play gate -->
+    <string name="unlock_title">افتح هذه اللعبة</string>
+    <string name="unlock_desc">شاهد إعلانًا قصيرًا واحدًا وستبقى %1$s مفتوحة للأبد.</string>
+    <string name="unlock_watch">مشاهدة الإعلان</string>
+    <string name="unlock_cancel">ليس الآن</string>
+    <string name="badge_locked">مقفلة</string>
+    <!-- /Play gate -->
+
+    <!-- Exit dialogs -->
+    <string name="exit_game_title">الخروج من اللعبة؟</string>
+    <string name="exit_game_desc">يُحفظ تقدمك تلقائيًا قبل الخروج.</string>
+    <string name="exit_game_confirm">خروج</string>
+    <string name="exit_app_title">إغلاق التطبيق؟</string>
+    <string name="exit_app_desc">مكتبتك ستبقى كما هي.</string>
+    <string name="exit_app_confirm">إغلاق</string>
+    <string name="exit_stay">البقاء</string>
+    <!-- /Exit dialogs -->
+
+    <!-- Ad loading -->
+    <string name="ad_loading">جارٍ تحميل الإعلان، يرجى الانتظار…</string>
+    <!-- /Ad loading -->
+
+    <!-- Premium -->
+    <string name="upgrade_cta">الاشتراك المميز</string>
+    <string name="upgrade_later">لاحقًا</string>
+    <string name="unlock_all_cta">افتح كل شيء بدلاً من ذلك</string>
+    <string name="premium_row_title">الاشتراك المميز</string>
+    <string name="premium_row_subtitle">بدون إعلانات، كل الألعاب مفتوحة، مكتبة بلا حدود</string>
+    <string name="iap_title">تجربة ألعاب مميزة</string>
+    <string name="iap_benefit_features">فتح جميع الميزات</string>
+    <string name="iap_benefit_space">افتح كل لعبة، وليس %1$d فقط</string>
+    <string name="iap_benefit_no_ads">إزالة كل الإعلانات</string>
+    <string name="iap_cta_trial">جرّب %1$d أيام مجانًا</string>
+    <string name="iap_cta_continue">متابعة</string>
+    <string name="iap_cta_then_weekly">ثم %1$s/أسبوع</string>
+    <string name="iap_price_weekly">%1$s أسبوعيًا</string>
+    <string name="iap_price_monthly">%1$s شهريًا</string>
+    <string name="iap_price_lifetime">%1$s، دفعة واحدة</string>
+    <string name="iap_plan_lifetime">مدى الحياة</string>
+    <string name="iap_plan_lifetime_note">دفعة واحدة</string>
+    <string name="iap_plan_monthly">شهري</string>
+    <string name="iap_plan_monthly_note">تجديد تلقائي شهريًا</string>
+    <string name="iap_best_value">أفضل قيمة</string>
+    <string name="iap_legal">تتجدد الاشتراكات تلقائيًا. يمكنك الإلغاء في أي وقت من Google Play.</string>
+    <string name="iap_privacy">سياسة الخصوصية</string>
+    <string name="iap_terms">شروط الخدمة</string>
+    <string name="slots_full_title">نفدت كل الخانات</string>
+    <string name="slots_full_desc">النسخة المجانية تفتح %1$d ألعاب. احذف لعبة فتحتها، أو اشترك لفتحها كلها.</string>
+    <!-- /Premium -->
+</resources>
